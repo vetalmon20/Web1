@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Main </title>
+        <style>
+            .page{
+                width: 750px;
+                height: 900px;
+                position: absolute;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            #fox{
+                background-image: url("pics/background1.jpg");
+                z-index: 2; 
+                margin-top: 520px;
+                margin-left: 1010px;
+            }
+            #snake{
+                background-image: url("pics/background2.jpg");
+                z-index: 1;
+                margin-top: 230px;
+                margin-left: 490px;                
+            }
+            #bug{
+                background-image: url("pics/background3.jpg");
+                z-index: 1;
+                margin-top: 230px;
+                margin-left: 1550px;
+            }
+            .image{
+                margin-top:35px;
+                margin-left:15px;
+                border: 7px solid white;
+            }
+            .image_small{
+                border: 3px solid white;
+            }
+            header{
+                padding-top:3px;
+                width:100%;
+            }
+            header table{
+                border-spacing: 4px 1px; 
+            }
+            header table td{
+                width: 115px;
+                height: auto;
+                font-weight: 800;
+                font-size: 13px;
+                font-family: arial;
+            }
+            #menu_header{
+                background-color: skyblue;
+            }
+            .menu_header_2{
+                background-color: darkgray;
+            }
+            #menu_header table td{
+                background:linear-gradient(to top,blue , dodgerblue);
+                color:white;
+            }
+            #menu_header table td:hover{
+                background: linear-gradient(to top,green , greenyellow);
+            }  
+            .menu_header_2 table td{
+                background:white;
+                color:dodgerblue;
+            }
+            .menu_header_2 table td:hover{
+                color:hotpink;
+            } 
+            .menu{
+                width:60.5%;
+                height: auto;
+                border: 4px solid white;
+                margin-top:25px;
+                margin-left:15px;
+                margin-bottom: 15px;
+            }
+            .menu_gray{
+                width:100%;
+            }
+            .text_image{
+                float:left;
+                margin: 13px;
+                border-style: groove;
+                border-width: 9px;
+                border-color: lavender;
+            }
+            #text_image_main{
+                border-color: greenyellow;
+            }
+            span{
+                color:dodgerblue;
+                text-decoration: underline;
+                font-weight: 800;
+                font-size: 17px;
+            }
+            p{
+                font-size: 13px;
+                font-family: arial;
+            }
+            .prescr{
+                text-align: center;
+                color:white; 
+                font-family: Arial;
+            }
+            .width{
+                width: 200%;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class = 'page' id = 'fox'>
+            
+            <img src = "pics/fox.jpg" class = 'image' width = 60% height = 35%>
+            
+            <div class = "menu">
+                <header id = "menu_header">
+                    <table cellpadding = "10">
+                        <tr>
+                            <td>About Enviato</td>
+                            <td>Marketplaces</td>
+                            <td>Tuts + Network </td>
+                        </tr>
+                    </table>
+                </header>
+                <div style = "padding: 35px 35px 35px 35px; background-color: white;">
+                    <div>
+                         <img src = "pics/photos.jpg" width = 50% height = 50% class = "text_image" id = "text_image_main" >
+                    </div>
+                    <div>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id aliquet risus feugiat in. Ut tortor pretium viverra suspendisse potenti. In vitae turpis massa sed elementum tempus egestas sed sed. Lacus suspendisse faucibus interdum posuere lorem ipsum. A iaculis at erat pellentesque adipiscing. Id leo in vitae turpis massa. Proin fermentum leo vel orci porta. Mi bibendum neque egestas congue. Est sit amet facilisis magna. Etiam tempor orci eu lobortis elementum nibh. Tristique senectus et netus et malesuada. Sit amet massa vitae tortor condimentum lacinia. Etiam non quam lacus suspendisse faucibus interdum posuere. Id velit ut tortor pretium. Eros donec ac odio tempor orci. Malesuada proin libero nunc consequat interdum varius sit. Ultrices in iaculis nunc sed augue lacus. Massa tincidunt dui ut ornare lectus.
+                    <br>
+                    </div>
+
+                    <span>Visit The Envio Website</span>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+        
+        <div class = 'page' id = 'snake'>
+            <div style="float:left; width: 60%; height: auto;">
+                <img src = "pics/snake.jpg" class = 'image' width = 99% height = 35% >
+                
+                <div style="width: 110%; text-align: center; color:white; font-family: Arial;" >
+                    Main image changes in the times indicated.
+
+                </div>
+
+                <div class = "menu menu_gray">
+                    <header class = "menu_header_2">
+                        <table cellpadding = "10">
+                            <tr>
+                                <td>About Enviato</td>
+                                <td>Marketplaces</td>
+                                <td>Tuts + Network </td>
+                            </tr>
+                        </table>
+                    </header>
+                    <div style = "padding: 35px 35px 22px 35px; background-color: white">
+                        <div>
+                             <img src = "pics/photos.jpg" width = 50% height = 50% class = "text_image">
+                        </div>
+                        <div>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id aliquet risus feugiat in. Ut tortor pretium viverra suspendisse potenti. In vitae turpis massa sed elementum tempus egestas sed sed. Lacus suspendisse faucibus interdum posuere lorem ipsum. A iaculis at erat pellentesque adipiscing. Id leo in vitae turpis massa. Proin fermentum leo vel orci porta. Mi bibendum neque egestas congue. Est sit amet facilisis magna. Etiam tempor orci eu lobortis elementum nibh. Tristique senectus et netus et malesuada. Sit amet massa vitae tortor condimentum lacinia. Etiam non quam lacus suspendisse faucibus interdum posuere. Id velit ut tortor pretium. Eros donec ac odio tempor orci. Malesuada proin libero nunc consequat interdum varius sit. Ultrices in iaculis nunc sed augue lacus. Massa tincidunt dui ut ornare lectus.
+                        <br>
+                        </div>
+
+                        <span>Visit The Envio Website</span>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div style = "padding: 30px 0px 0px 0px;">
+                <table cellpadding = "5" style = "padding-left: 30px;">
+                    <tr>
+                        <td>
+                            <div>
+                                <img src = "pics/fox_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                6.00 am
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src = "pics/bees_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                8.00 am
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src = "pics/crab_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                12.00 pm
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src = "pics/animals_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                2.00 pm
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src = "pics/snake_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                4.00 pm
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src = "pics/bird_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                6.00 pm
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src = "pics/fish_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                8.00 am
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src = "pics/bug_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                10.00 pm
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src = "pics/bibre_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                12.00 am
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src = "pics/envato_small.jpg" class = "image_small">
+                            </div>
+                            <div class = "prescr">
+                                2.00 am
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class = 'page' id = 'bug'>
+            <div style="float:left; width: 60%; height: auto;">
+                <img src = "pics/bug.jpg" class = 'image' width = 99% height = 35% >
+                
+                <div style="width: 110%; text-align: center; color:white; font-family: Arial;" >
+                           Main image changes in the times indicated.
+                </div>
+
+                <div class = "menu menu_gray">
+                    <header class = "menu_header_2">
+                        <table cellpadding = "10">
+                            <tr>
+                                <td>About Enviato</td>
+                                <td>Marketplaces</td>
+                                <td>Tuts + Network </td>
+                            </tr>
+                        </table>
+                    </header>
+                    <div style = "padding: 35px 35px 22px 35px; background-color: white">
+                        <div>
+                             <img src = "pics/photos.jpg" width = 50% height = 50% class = "text_image" >
+                        </div>
+                        <div>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id aliquet risus feugiat in. Ut tortor pretium viverra suspendisse potenti. In vitae turpis massa sed elementum tempus egestas sed sed. Lacus suspendisse faucibus interdum posuere lorem ipsum. A iaculis at erat pellentesque adipiscing. Id leo in vitae turpis massa. Proin fermentum leo vel orci porta. Mi bibendum neque egestas congue. Est sit amet facilisis magna. Etiam tempor orci eu lobortis elementum nibh. Tristique senectus et netus et malesuada. Sit amet massa vitae tortor condimentum lacinia. Etiam non quam lacus suspendisse faucibus interdum posuere. Id velit ut tortor pretium. Eros donec ac odio tempor orci. Malesuada proin libero nunc consequat interdum varius sit. Ultrices in iaculis nunc sed augue lacus. Massa tincidunt dui ut ornare lectus.
+                        <br>
+                        </div>
+
+                        <span>Visit The Envio Website</span>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div style = "padding: 30px 0px 0px 0px; width: auto;"> 
+                <table cellpadding = "5" style = "padding-left: 30px;">
+                    <tr>
+                        <td>
+                            <div style = "width: 100%">
+                                <img src = "pics/fox_small.jpg" class = "image_small" width = 200% height = 140>
+                            </div>
+                            <div class = "prescr width">
+                                7 hours in <br> 12.00am Morning
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="margin-top: 15px;">
+                                <img src = "pics/snake_small.jpg" class = "image_small" width = 200% height = 140>
+                            </div>
+                            <div class = "prescr width">
+                                12.00 pm to <br>6.00pm Morning
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="margin-top: 15px;">
+                                <img src = "pics/bug_small.jpg" class = "image_small" width = 200% height = 140>
+                            </div>
+                           <div class = "prescr width">
+                                4.00 pm to <br>8.00pm Evening
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="margin-top: 15px;">
+                                <img src = "pics/envato_small.jpg" class = "image_small" width = 200% height = 140>
+                            </div>
+                            <div class = "prescr width">
+                                8.00 pm to <br>12.00am Evening
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
